@@ -1,21 +1,35 @@
-
-.header h1 {
-  color: brown;
-  font-style: italic;
-  font-size: 50px;
-
-}
-
-.hi-there{
-  color: blue;
-  font-style: italic;
-
-}
-
-
-
-
-.container {
+.nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+  }
+
+.content img {
+  display: flex;
+  border-style: groove;
+  width: 20%;
+  left: 0px;
+  right: 0px;
+  float: left;
+   }
+
+  h1 {
+  text-align: center;
+  }
+
+  .Contact-Me{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+
+   .nav-list li {
+
 }
