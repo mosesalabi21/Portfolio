@@ -18,6 +18,16 @@
   float: left;
    }
 
+   .content-2 img {
+    display: flex;
+    border-style: groove;
+    width: 55%;
+    left: 0px;
+    right: 0px;
+    float: left;
+  }
+  
+
   h1 {
   text-align: center;
   }
